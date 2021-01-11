@@ -5,22 +5,22 @@
 
 
 /*****************
-Version 1.0.1
+Version 1.0.0
 
 Changelog:
 ----------
 
-Version 1.0.1:
-    Fixed reading total inclusive amount.
-	Improved displaying of used amount.
+Version 1.0.0:
+    Init commit that takes premiumsim repo as basis and changes it to winsim
 
 
 If you have problems or need help, please ask for support here:
-https://github.com/BergenSoft/scriptable_premiumsim
+https://github.com/benjaminburzan/scriptable_winsim
 
 
 credits:
 https://github.com/chaeimg/battCircle/blob/main/battLevel.js
+https://github.com/BergenSoft/scriptable_premiumsim
 */
 
 
@@ -51,9 +51,9 @@ const m_Canvas = new DrawContext();
 
 
 // Used URLS
-const m_LoginPageUrl = "https://service.premiumsim.de";
-const m_LoginUrl = "https://service.premiumsim.de/public/login_check";
-const m_DataUsageUrl = "https://service.premiumsim.de/mytariff/invoice/showGprsDataUsage";
+const m_LoginPageUrl = "https://service.winsim.de";
+const m_LoginUrl = "https://service.winsim.de/public/login_check";
+const m_DataUsageUrl = "https://service.winsim.de/mytariff/invoice/showGprsDataUsage";
 
 // For processing the requests
 let m_Cookies = { "isCookieAllowed": "true" };
